@@ -3819,7 +3819,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 452984, guid: f0cc65139de22ef4ea14826d5d929269, type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 11417838, guid: f0cc65139de22ef4ea14826d5d929269, type: 2}
       propertyPath: healthSlider
@@ -3829,6 +3829,10 @@ Prefab:
       propertyPath: damageImage
       value: 
       objectReference: {fileID: 154750460}
+    - target: {fileID: 8217836, guid: f0cc65139de22ef4ea14826d5d929269, type: 2}
+      propertyPath: Priority
+      value: 60
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f0cc65139de22ef4ea14826d5d929269, type: 2}
   m_RootGameObject: {fileID: 1193203208}
@@ -3958,7 +3962,7 @@ AudioSource:
   m_Pitch: 1
   Loop: 0
   Mute: 0
-  Priority: 128
+  Priority: 60
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
